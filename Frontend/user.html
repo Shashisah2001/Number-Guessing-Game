@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>User Dashboard</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="user-container">
+            <h1>User Dashboard</h1>
+            <div id="greetingMessage">User:</div>
+            <p id="wallet">Wallet: 1000</p>
+            <form id="guessNumberForm">
+                <label for="guessNumber">Guess Number:</label>
+                <input type="number" id="guessNumber" required>
+                <button type="submit">Submit Guess</button>
+            </form>
+            <button id="logoutBtn">Logout</button>
+            <div id="message" class="message"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
